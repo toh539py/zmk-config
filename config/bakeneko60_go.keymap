@@ -87,16 +87,19 @@
         LArrow {
             bindings = <&kt LC(LEFT_ARROW)>;
             key-positions = <60>;
+            layers = <0>;
         };
 
         DArrow {
             bindings = <&kt LC(DOWN_ARROW)>;
             key-positions = <61>;
+            layers = <0>;
         };
 
         UArrow {
             bindings = <&kt LC(UP_ARROW)>;
             key-positions = <53>;
+            layers = <0>;
         };
     };
 };
