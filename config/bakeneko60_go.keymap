@@ -92,8 +92,13 @@
         compatible = "zmk,conditional-layers";
 
         Arrowkeys {
-            if-layers = <1>;
+            if-layers = <0>;
             then-layer = <1>;
+        };
+
+        ArrowKeys {
+            if-layers = <1>;
+            then-layer = <0>;
         };
     };
 };
